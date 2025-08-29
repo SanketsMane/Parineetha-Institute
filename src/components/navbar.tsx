@@ -38,17 +38,17 @@ export function Navbar() {
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 lg:h-20 items-center justify-between">
+        <div className="flex h-16 sm:h-18 lg:h-20 items-center justify-between">
           {/* Logo */}
           <motion.div 
             whileHover={{ scale: 1.05 }}
             className="flex items-center"
           >
-            <Link href="/" className="flex items-center">
-              <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 relative">
+            <Link href="/" className="flex items-center space-x-2">
+              <div className="w-24 h-24 relative">
                 <Image
                   src="/Parineetha-removebg-preview.png"
-                  alt="Parineetha Institute"
+                  alt="Parineetha"
                   fill
                   className="object-contain"
                   style={{
@@ -57,6 +57,9 @@ export function Navbar() {
                   priority
                 />
               </div>
+              <span className="text-lg sm:text-xl lg:text-2xl font-bold bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 bg-clip-text text-transparent hidden sm:block tracking-tight">
+                Parineetha
+              </span>
             </Link>
           </motion.div>
 

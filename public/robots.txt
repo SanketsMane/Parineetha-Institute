@@ -1,10 +1,23 @@
 User-agent: *
 Allow: /
 
+# Enhanced for Bengaluru Training Institute SEO
+Crawl-delay: 1
+
 # Sitemap
 Sitemap: https://parineetha.in/sitemap.xml
+
+# Allow important pages for SEO
+Allow: /courses/
+Allow: /about/
+Allow: /contact/
 
 # Disallow unnecessary files
 Disallow: /_next/
 Disallow: /api/
 Disallow: /*.json$
+Disallow: /admin/
+Disallow: /private/
+
+# Host
+Host: https://parineetha.in

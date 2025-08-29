@@ -7,7 +7,7 @@ const journey = [
   {
     year: '',
     title: 'Institute Foundation',
-    description: 'Parineetha Institute was founded with a vision to provide cutting-edge tech education and bridge the skill gap in the industry.',
+    description: 'Parineetha was founded with a vision to provide cutting-edge tech education and bridge the skill gap in the industry.',
     icon: Rocket,
     color: 'from-orange-400 to-red-500'
   },
@@ -101,7 +101,7 @@ export default function AboutPage() {
             className="text-center"
           >
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              About <span className="text-orange-500">Parineetha Institute</span>
+              About <span className="text-orange-500">Parineetha</span>
             </h1>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               Founded in 2024, we're dedicated to transforming careers through 

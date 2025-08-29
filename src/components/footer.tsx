@@ -42,10 +42,10 @@ export function Footer() {
           >
             {/* Compact Logo */}
             <div className="flex items-center justify-center lg:justify-start mb-4">
-              <div className="w-16 h-16 relative">
+              <div className="w-24 h-24 relative">
                 <Image
                   src="/Parineetha-removebg-preview.png"
-                  alt="Parineetha Institute"
+                  alt="Parineetha"
                   fill
                   className="object-contain"
                   style={{
@@ -55,7 +55,7 @@ export function Footer() {
               </div>
               <div className="ml-3">
                 <h3 className="text-lg font-bold text-white">
-                  Parineetha Institute
+                  Parineetha
                 </h3>
                 <p className="text-xs text-orange-300">
                   Tech Education Excellence
@@ -158,16 +158,16 @@ export function Footer() {
           className="border-t border-gray-800 mt-6 pt-4 flex flex-col md:flex-row justify-between items-center"
         >
           <div className="text-gray-500 text-xs mb-2 md:mb-0">
-            © 2024 Parineetha Institute. All rights reserved.
+            © 2024 Parineetha. All rights reserved.
           </div>
           <div className="flex space-x-4 text-xs">
-            <Link href="#" className="text-gray-500 hover:text-white transition-colors">
+            <Link href="/privacy-policy" className="text-gray-500 hover:text-white transition-colors">
               Privacy Policy
             </Link>
-            <Link href="#" className="text-gray-500 hover:text-white transition-colors">
+            <Link href="/terms-of-service" className="text-gray-500 hover:text-white transition-colors">
               Terms of Service
             </Link>
-            <Link href="#" className="text-gray-500 hover:text-white transition-colors">
+            <Link href="/cookie-policy" className="text-gray-500 hover:text-white transition-colors">
               Cookie Policy
             </Link>
           </div>

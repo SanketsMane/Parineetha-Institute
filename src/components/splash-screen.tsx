@@ -40,7 +40,7 @@ export function SplashScreen({ onFinish }: SplashScreenProps) {
           <div className="relative w-32 h-32 sm:w-40 sm:h-40 lg:w-48 lg:h-48 mb-6">
             <Image
               src="/Parineetha-removebg-preview.png"
-              alt="Parineetha Institute"
+              alt="Parineetha"
               fill
               className="object-contain"
               priority
@@ -54,7 +54,7 @@ export function SplashScreen({ onFinish }: SplashScreenProps) {
             transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
             className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 text-center"
           >
-            Parineetha Institute
+            Parineetha
           </motion.h1>
 
           {/* Tagline */}

@@ -38,7 +38,7 @@ export function LayoutWrapper({ children }: LayoutWrapperProps) {
       {showSplash && <SplashScreen onFinish={handleSplashFinish} />}
       <div className={`flex min-h-screen flex-col transition-opacity duration-500 ${showSplash ? 'opacity-0' : 'opacity-100'}`}>
         <Navbar />
-        <main className="flex-1">
+        <main className="flex-1 pt-16 sm:pt-18 lg:pt-20">
           {children}
         </main>
         <Footer />
